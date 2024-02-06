@@ -4,7 +4,7 @@ import com.mycompany.dvdstore.entity.Movie;
 
 import java.util.ArrayList;
 
-public class MovieRepository {
+public class MovieRepository implements IMovieRepository{
     ArrayList<Movie> movies = new ArrayList<Movie>();
     public void add (Movie movie){
         movies.add(movie);
